@@ -1,0 +1,89 @@
+/charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,select,textarea{background-color: transparent; border: none; outline: none;}
+textarea{resize: none;}
+img{vertical-align: top;}
+a{text-decoration: none;-webkit-tap-highlight-color: transparent;}
+
+html {-webkit-text-size-adjust: none;}
+
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.fr{float: right;} .fl{float: left;}
+
+body{
+	background-color: #85D2C5;
+}
+.hd_top{
+	margin-left: 4.8rem;
+	margin-top: 4.9rem;
+}
+.hd_top img{
+	width: 6.25rem;
+	height: 2.25rem;
+}
+.hd_button{
+	margin-top: 2.9rem;
+	margin-left: 2.5rem;
+}
+.hd_button input{
+	display: inline-block;
+}
+.hd_button .input_top{
+	width: 11.4rem;
+	border-bottom: 2px solid #83D0C3;
+}
+.hd_button i{
+	display: inline-block;
+	margin-right: 0.95rem;
+}
+.anniu{
+	width: 8.4rem;
+	height: 1.75rem;
+	background-color: #705D76;
+	border-bottom: 2px solid #5C4D61;
+	border-radius: 4px 4px 4px 4px;
+	margin-left: 3.8rem;
+	margin-top: 2.2rem;
+}
+.anniu input{
+	width: 8.4rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.75rem;
+}
+.text a{
+	color: #ffffff;
+	font-size: 0.65rem;
+	margin-left: 5.65rem;
+}
+.button{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #80CABD;
+	color: #ffffff;
+}
+.button input{
+	margin-top: 1.05rem;
+	margin-left: 3.8rem;
+	width: 8.3rem;
+	height: 1.65rem;
+	color: #ffffff;
+	font-size: 25px;
+	border: 2px solid #ffffff;
+	background-color: #8DCFC4;
+	border-radius: 4px 4px 4px 4px;
+}
+.button u{
+	margin-top: 0.8rem;
+	display: block;
+	font-size: 0.65rem;
+	margin-left: 4.8rem;
+}

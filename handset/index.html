@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html lang="em">
+	<head>
+		<meta charset="UTF-8" />
+		<title>首页</title>
+	</head>
+	<body>
+		<meta name="viewport" content="width =device-width,initial-scale=1,user-scalable=1,maximum-scale=1,minimum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<script>
+	   alert(window.screen.width)
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+<header>
+	<div class="hd_top">
+		<img src="image/logo.gif"/>
+	</div>
+	<div class="hd_button">
+	<div class="input_top">
+		<i class="iconfont">&#xe621;</i><input type="text" placeholder="E-mail address">
+	</div>
+	<div class="input_top">
+		<i class="iconfont">&#xe629;</i><input type="password" placeholder="请您密码">
+	</div>
+	</div>
+	<div class="anniu">
+		<input type="button" value="Login">
+	</div>
+	<div class="text">
+		<a href="#">Forgot password?</a>
+	</div>
+	<div class="button">
+		<input type="button" value="f &nbsp; Login with Facebook">
+		<u>Sign Up for Freebee</u>
+	</div>
+</header>
+	</body>
+</html>
