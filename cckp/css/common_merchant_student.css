@@ -170,23 +170,6 @@
 	border-top: 1px solid #E5E5E5;
 	background-color: #FAFAFA;
 }
-.button_text ul{
-	margin-left: 374px;
-	margin-top: 40px;
-	margin-bottom: 7px;
-	text-align: center;
-}
-.button_text li{
-	float: left;
-	font-size: 12px;
-}
-.button_text a{
-	color: #000;
-}
-.button_text li:nth-child(2n){
-	margin-left: 5px;
-	margin-right: 5px;
-}
 .button_text p{
 	text-align: center;
 	font-size: 12px;
